@@ -48,6 +48,8 @@ section {
     align-items: center;
 }
 
+
+
 button {
     background-color: #007bff;
     color: white;
@@ -70,13 +72,20 @@ button {
     }
 
     .navbar-links {
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         gap: 10px;
     }
 
     section {
         flex-direction: column;
+        
     }
+
+    section img {
+    display: none;
+}
     
     button {
         width: 100%;
